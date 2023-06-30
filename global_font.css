@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat'),
+    local('Montserrat'),
+url("fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 1.4em !important; */
+}
+/* *{
+    color: #5a4949;
+} */
+body {
+	font-family: 'Montserrat', sans-serif !important;
+    
+}

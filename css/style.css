@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+} 
+html{
+  width: 100vw;
+}
+body{
+  background: url("../items/patterns/leaves.webp") repeat;
+  background-attachment: fixed;
+}
+.card-panel{
+  background: url("../items/patterns/white_wall_hash.webp") repeat;
+  background-attachment: fixed;
+}
+nav{
+  /* width: calc(100% - 30px) !important; */
+  padding: 5px !important;
+}
+nav ul a,
+nav .brand-logo,h4 {
+  color: #444;
+}
+
+.v-spacing{
+  padding: 20px;
+}
+.v-spacing{
+  padding: 20px;
+}
+.v-spacing-big{
+  padding: 50px;
+}
+.menu-icon{
+  font-size: 36px !important;
+}
+.logo-img{
+  height: 56px !important;
+}
+.company-name{
+  font-weight: bold;
+  color: #444;
+}
+
+
+.row .carousel img{
+  width: 80%;
+}
+.chips-section{
+  padding: 10px;
+}
+
+/* .collection-item img{
+  width: 80%;
+  margin-left: 10%;
+} */
+/* .collection-img{
+  width: 100% !important;
+  height: 100% !important; */
+/* } */
+/* .slides img{ */
+  /* width: 80%; */
+  /* height: 80% !important;  */
+  /* padding: 10% !important; */
+/* }  */
+img{
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
+.materialboxed{
+  background-size: cover !important;
+  width: 80% !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+
+  background-repeat: repeat;
+}
+
+.container {
+  width: 100%;
+}
+
+
+
+
+
+
+
+/* Testimonial Start */
+.profile .carousel{
+  height: 100vh;
+  perspective: 250px;
+}
+/* .profile{
+  padding: 50px;
+} */
+.profile .carousel .carousel-item{
+  width: 450px;
+}
+.profile .card {
+position: relative;
+margin: .5rem 0 1rem 0;
+background-color: #fff;
+width: 450px;
+height: 379px;
+color: #262626;
+border-radius: 100px;
+box-shadow: 0 8px 20px 0px rgba(0,0,0,0.2);
+}
+.profile .img-area img {
+border-radius: 50%;
+border: 7px solid orangered;
+margin-top: -80px;
+}
+
+.profile .box1 {
+background: #8b6224;
+height: 120px;
+border-radius: 25px 25px 0 0;
+}
+.profile .img-area {
+text-align: center;
+}
+.profile .img-area img {
+width: 30%;
+}
+.profile .main-text {
+padding: 8px 0;
+text-align: center;
+}
+.profile .main-text h2 {
+font-weight: 900;
+font-size: 20px;
+margin: 0 0 20px;
+font-family: 'Alfa Slab One', cursive;
+}
+
+.profile .main-text p{
+font-size: 16px;
+padding: 0 35px;
+}
+/* Testimonial End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
