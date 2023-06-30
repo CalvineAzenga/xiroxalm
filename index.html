@@ -1,479 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Xirox - ALM</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">   -->
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="./global_font.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="./materialize/material-icons.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<style>
-  nav{
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    height: auto !important;
-    vertical-align: middle !important;
-
-  }
-
-</style>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./global_font.css">
 </head>
-<body class="grey lighten-3">
-  
+<style>
+    body {
+        background: url("../items/patterns/leaves.webp") repeat;
+        background-attachment: fixed;
+        font-family: 'Roboto' !important;
+    }
 
-  <!-- Navigation -->
-  <section>
-    <div class="navbar-fixed">
-      <nav class="green lighten-5" role="navigation">
-        <div class="nav-wrapper container">
-          <a href="" class="left"><img class="logo-img" src="./logo.png" alt="xirox-logo"></a>
-          <a href="" class="sidenav-trigger right" data-target="mobile-nav">
-            <i class="material-icons red-text menu-icon">menu</i>
-          </a>
-  
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#products">Products</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <!-- Space -->
-            <li><a href="#">FAQS</a></li>
-            <li><a href="#">Contact</a></li>
-  
-          </ul>
-                 
-  
-        </div>
-    
-    
-      </nav>
-    </div>
+    .hero-header {
+        background: url(./bg.webp) top right no-repeat;
+        background-size: cover;
+    }
+</style>
 
-    <ul class="sidenav" id="mobile-nav">
-      <li><a class="sidenav-close" href="">Home</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#products">Products</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#">Services</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#">Testimonials</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#">FAQS</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="sidenav-close" href="#">Contact</a></li>
-    </ul>
-  </section>
-
-  <div class="v-spacing"></div>
-  <!-- Home Section -->
-  <section class="container">
-    <div class="card-panel white lighten-1">
-      <div class="row">
-        <div class="col s12 m8">
-          <div class="card">
-            <div class="card-image">
-              <img src="./Nature_cleaning.jpg">
-              <span class="card-title hide-on-small-only">Committed to superior quality and results</span>
-            </div>
-            <div class="card-content">
-              <p><span class="company-name">Xerox ALM Limited</span>  is a supplier of products. with a focus on
-                recycled resources, we provide unique tailored solutions to companies of all types</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col s12 m4">
-          <div class="slider">
-            <ul class="slides transparent">
-              <li>
-                <img class="collection-img" src="./items/jpegs/binlinerblack.webp"> 
-                <div class="caption center-align">
-                  <!-- <h5>Bin Liners</h5> -->
-                  <p class="green-text">Bin Liners</p>
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light border-bottom d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fs-1 text-secondary me-3 fas fa-map-marker-alt"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Our Office</h6>
+                        <span>Thika Road, Plot number Block 139/88</span>
+                    </div>
                 </div>
-              </li>
-              <li>
-                <img class="collection-img" src="./items/jpegs/dustbinyellow.webp"> 
-                <div class="caption right-align">
-                  <!-- <h6>This is our big Tagline!</h6> -->
-                  <p class="black-text">Dust Bins</p>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fs-1 text-secondary me-3 fas fa-envelope"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Email Us</h6>
+                        <span><a href="mailto:info@xiroxalm.com">info@xiroxalm.com</a></span>
+                    </div>
                 </div>
-              </li>
-              <li>
-                <img class="collection-img" src="./items/jpegs/khakibag2.jpeg"> 
-                <div class="caption center-align">
-                  <!-- <h6>This is our big Tagline!</h6> -->
-                  <p class="black-text">Khaki Bins</p>
+            </div>
+            <div class="col-lg-4 text-center py-2">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fs-1 text-secondary me-3 fas fa-phone-alt"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase mb-1">Call Us On</h6>
+                        <span><a href="tel:+254729250794">+254729250794</a></span>
+                        or
+                        <span><a href="tel:+254737215319">+254737215319</a></span>
+                    </div>
                 </div>
-              </li>
-            </ul>
-          </div>
-          <div class="chips-section center">
-            
-            <div class="chip">
-              Bin liners
             </div>
-            <div class="chip">
-              Dust Bins
-            </div>
-            <div class="chip">
-              Khaki Bags
-            </div>
-             
-          </div>
-          
         </div>
-
-      </div>
     </div>
-  </section>
+    <!-- Topbar End -->
 
-
-  <!-- Products Section -->
-  <section class="container">
-    <div class="v-spacing" id="products"></div>
-    <div class="card-panel center">
-      <h4>Our Products</h4>
-    </div>
-    <div class="card-panel">
-      <div class="row">
-        <div class="col s12 m6">
-          <ul class="collection with-header">
-            <li class="collection-header"><h4>Dust Bins</h4></li>
-            
-            <li class="collection-item">
-              <div class="chip">
-                white
-              </div>
-              <div class="chip">
-                black
-              </div>
-              <div class="chip">
-                red
-              </div>
-              <div class="chip">
-                yellow
-              </div>
-            </li>
-            <li class="collection-item">
-              <div class="slider">
-                <ul class="slides transparent">
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/dustbinwhite.webp">                    <div class="caption center-align">
-                      <!-- <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/dustbinblack.webp">                    <div class="caption left-align">
-                      <!-- <h3>Left Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/dustbinred.webp">                     <div class="caption right-align">
-                      <!-- <h3>Right Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/dustbinyellow.webp">                    <div class="caption center-align">
-                      <!-- <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
+    <!-- Navigation Content -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.png" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                 </ul>
-              </div> 
-            </li>
-
-          </ul>
-        </div>
-  
-        <div class="col s12 m6">
-          <ul class="collection with-header">
-            <li class="collection-header"><h4>Bin liners</h4></li>
-            <li class="collection-item">
-              <div class="chip">
-                white
-              </div>
-              <div class="chip">
-                black
-              </div>
-              <div class="chip">
-                red
-              </div>
-              <div class="chip">
-                yellow
-              </div>
-            </li>
-            <li class="collection-item">
-              <div class="slider">
-                <ul class="slides transparent">
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/binlinerwhite.webp">                    <div class="caption center-align">
-                      <!-- <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/binlinerblack.webp">                    <div class="caption left-align">
-                      <!-- <h3>Left Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/binlinerred.webp">                     <div class="caption right-align">
-                      <!-- <h3>Right Aligned Caption</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                  <li>
-                      <img class="collection-img" src="./items/jpegs/binlineryellow.webp">                    <div class="caption center-align">
-                      <!-- <h3>This is our big Tagline!</h3>
-                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            </li>
-          </ul>
-        </div>
-      </div>
-  
-      <div class="col s12 m12">
-        <ul class="collection with-header">
-          <li class="collection-header"><h4>Khaki Bags</h4></li>
-          <li class="collection-item khaki right">
-            <!-- <img class="collection-khaki" src="./items/khakibags.png">  -->
-            <img class="materialboxed center" src="./items/khakibags.png">
-          </li>
-        </ul>
-      </div>
-    </div>
-
-  </section>
-
-  <div class="v-spacing"></div>
-  <!-- Testimonials Section -->
-  <section class="container">
-    <div class="card-panel center">
-      <h4>What are people saying?</h4>
-
-      <div class="profile">
-        <div class="carousel">
-            <a class="carousel-item" href="#">
-                <div class="card">
-                    <div class="box1"></div>
-                    <div class="img-area"><img src="image/a1.jpg" alt=""></div>
-                    <div class="main-text">
-                        <h2>Person One</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
-                    </div>
-                </div>
-            </a>
-            <a class="carousel-item" href="#">
-                <div class="card">
-                    <div class="box1"></div>
-                    <div class="img-area"><img src="image/a2.jpg" alt=""></div>
-                    <div class="main-text">
-                        <h2>Person two</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
-                    </div>
-                </div>
-            </a>
-            <a class="carousel-item" href="#">
-                <div class="card">
-                    <div class="box1"></div>
-                    <div class="img-area"><img src="image/a3.jpg" alt=""></div>
-                    <div class="main-text">
-                        <h2>Person three</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
-                    </div>
-                </div>
-            </a>
-            <a class="carousel-item" href="#">
-                <div class="card">
-                    <div class="box1"></div>
-                    <div class="img-area"><img src="image/a1.jpg" alt=""></div>
-                    <div class="main-text">
-                        <h2>Person four</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
-                    </div>
-                </div>
-            </a>
-            <a class="carousel-item" href="#">
-                <div class="card">
-                    <div class="box1"></div>
-                    <div class="img-area"><img src="image/a1.jpg" alt=""></div>
-                    <div class="main-text">
-                        <h2>Person five</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate recusandae quam amet enim voluptates alias accusantium sapiente! Adipisci vero fugiat aliquid explicabo quas eius!</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-    </div>
-  </section>
-  <!-- Testimonial Section End -->
-
-  <div class="v-spacing"></div>
-
-  <!-- FAQS Section -->
-  <section class="container">
-    <div class="card-panel center">
-      <h4>Frequently Asked Questions</h4>
-    </div>
-  </section>
-  <!-- FAQS Section End -->
-
-    <!-- FAQS Section -->
-    <section class="container">
-      <div class="card-panel center">
-        <h4>Talk to us</h4>
-        <div class="row">
-          <div class="col s12 m6">
-            <form class="row" action="">
-              <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
-                      <label for="last_name">Last Name</label>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email_inline" type="email" class="validate">
-                      <label for="email_inline">Email</label>
-                      <span class="helper-text" data-error="wrong" data-success="right">Enter Valid E-mail</span>
-                    </div>
-                  </div>
-                  
-                </form>
-              </div>
-
-              <button class="btn waves-effect waves-light center" type="submit" name="action">Send your message&nbsp;
-                <i class="mdi-content-send"></i>
-              </button>
-            </form>
-          </div>
-          <div class="col s12 m6">
-            <address class="left-align">
-
-            </address>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- FAQS Section End -->
-  
-
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-      <i class="large material-icons">chat</i>
-    </a>
-    <ul>
-      <li><a class="btn-floating blue lighten-1"><i class="material-icons">facebook</i></a></li>
-      <li><a class="btn-floating blue darken-1"><i class="material-icons">phone</i></a></li>
-      <li><a class="btn-floating green"><i class="material-icons">sms</i></a></li>
-      <li><a class="btn-floating blue"><i class="material-icons">email</i></a></li>
-    </ul>
-  </div>
-
-  <div class="container-fluid bg-light mt-5 py-5">
-    <div class="container pt-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
-                <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                    <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                    <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                    <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
-                <form action="">
-                    <div class="input-group">
-                        <input type="text" class="form-control p-3" placeholder="Your Email">
-                        <button class="btn btn-primary">Sign Up</button>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-secondary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-1 text-uppercase text-dark mb-lg-4">XIROX-ALM</h1>
+                    <h1 class="text-uppercase text-white mb-lg-4">Committed to superior quality and results.</h1>
+                    <p class="fs-4 text-white mb-lg-4">
+                        We provide unique tailored solutions to companies of all types
+                    </p>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="#about" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Learn More</a>
                     </div>
-                </form>
-                <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
-                <div class="d-flex">
-                    <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
                 </div>
-            </div>
-            <div class="col-12 text-center text-body">
-                <a class="text-body" href="">Terms & Conditions</a>
-                <span class="mx-1">|</span>
-                <a class="text-body" href="">Privacy Policy</a>
-                <span class="mx-1">|</span>
-                <a class="text-body" href="">Customer Support</a>
-                <span class="mx-1">|</span>
-                <a class="text-body" href="">Payments</a>
-                <span class="mx-1">|</span>
-                <a class="text-body" href="">Help</a>
-                <span class="mx-1">|</span>
-                <a class="text-body" href="">FAQs</a>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid bg-dark text-white-50 py-4">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-md-6 text-center text-md-start">
-                <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-                <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="./Nature_cleaning.jpg"
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="border-start border-5 border-warning ps-5 mb-5">
+                        <h6 class="text-secondary text-uppercase">About Us</h6>
+                        <h1 class="display-5 text-uppercase mb-0">We supply products with a focus on recycled resources
+                        </h1>
+                    </div>
+                    <h4 class="text-body mb-4">
+                        We supply products that benefit both people and the environment.
+                        We provide unrivalled local capabilities, long-term leadership,
+                        and deep innovation expertise to customers of all sizes all over the world.
+                    </h4>
+                    <div class="bg-light p-4">
+                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab"
+                                    aria-controls="pills-1" aria-selected="true">Our Mission</button>
+                            </li>
+                            <li class="nav-item w-50" role="presentation">
+                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                                    aria-selected="false">Our Vission</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel"
+                                aria-labelledby="pills-1-tab">
+                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor
+                                    diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos
+                                    sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.
+                                    Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata
+                                    consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor
+                                    diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos
+                                    sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit.
+                                    Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata
+                                    consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- About End -->
 
-  <!--  Scripts-->
-  <script src="jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <!-- Products Start -->
+    <div class="container-fluid py-5" id="products">
+        <div class="container">
+            <div class="border-start border-5 border-secondary ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-secondary text-uppercase">Products</h6>
+                <h1 class="display-5 text-uppercase mb-0">Our Excellent Products</h1>
+            </div>
 
-  </body>
+
+            <div class="">
+                <div class="col-sm-12 col-md-12 col-lg-12 g-3 align-items-center">
+                    <div class="row row-cols-sm-12 row-cols-md-4 row-cols-lg-3">
+                        <div class="col">
+                            <div class="card" style="padding: 32px;height:500px;">
+                                <img src="./items/jpegs/binlineryellow.webp" style="height:300px;" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bin Liners</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">Yellow</span>
+                                        <span class="badge bg-secondary">White</span>
+                                        <span class="badge bg-secondary">Black</span>
+                                        <span class="badge bg-secondary">Red</span>
+                                    </p>
+                                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="padding: 32px;height:500px;">
+                                <img src="./items/jpegs/dustbinred.webp" style="height:300px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dust Bins</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">Yellow</span>
+                                        <span class="badge bg-secondary">White</span>
+                                        <span class="badge bg-secondary">Black</span>
+                                        <span class="badge bg-secondary">Red</span>
+                                    </p>
+                                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="padding: 32px;height:500px;">
+                                <img src="./items/jpegs/khakibags.webp" style="height:300px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Khaki Bags</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">Common</span>
+                                    </p>
+                                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="padding: 32px;height:500px;">
+                                <img src="./items/jpegs/towel2.webp" style="height:300px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Towels</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">Variety</span>
+                                    </p>
+                                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card" style="padding: 32px;height:500px;">
+                                <img src="./items/jpegs/apron.webp" style="height:300px;" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aprons</h5>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">Jeans</span>
+                                        <span class="badge bg-secondary">Others</span>
+
+                                    </p>
+                                    <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid bg-white pt-5" id="contact">
+        <div class="container">
+            <div class="border-start border-5 border-warning ps-5 mb-5" style="max-width: 600px;">
+                <h6 class="text-secondary text-uppercase">Contact Us</h6>
+                <h1 class="display-5 text-uppercase mb-0">Please Feel Free To Contact Us</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <input type="text" class="form-control bg-light border-1 px-4" placeholder="Your Name"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <input type="email" class="form-control bg-light border-1 px-4" placeholder="Your Email"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control bg-light border-1 px-4" placeholder="Subject"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control bg-light border-1 px-4 py-3" rows="8"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-secondary w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-light mb-5 p-5">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-geo-alt fs-1 text-secondary me-3"></i>
+                            <div class="text-start">
+                                <h6 class="text-uppercase mb-1">Our Office</h6>
+                                <span> Thika Road, Plot number Block 139/88 </span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fas fa-envelope-open fs-1 text-secondary me-3"></i>
+                            <div class="text-start">
+                                <h6 class="text-uppercase mb-1">Email Us</h6>
+                                <span>info@xiroxalm.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-4">
+                            <i class="fas fa-phone-vibrate fs-1 text-secondary me-3"></i>
+                            <div class="text-start">
+                                <h6 class="text-uppercase mb-1">Call Us</h6>
+                                <span>+254729250794/+254737215319</span>
+                            </div>
+                        </div>
+                        <div>
+
+                            <iframe class="position-relative w-100"
+                                src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m15!1m8!3m7!1s0x182f167837d774ad:0x87569206043adbc7!2sThika+Rd,+Kenya!3b1!8m2!3d-1.2134454!4d36.8997048!16s%2Fm%2F0ddgcy7!3m5!1s0x182f167837d774ad:0x87569206043adbc7!8m2!3d-1.2134454!4d36.8997048!16s%2Fm%2F0ddgcy7?hl=en&entry=ttu"
+                                frameborder="0" style="height: 205px; border:0;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Main Section -->
+    <!-- End of Main Section -->
+
+    <!-- Footer -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-secondary ps-3 mb-4">Get In Touch</h5>
+                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed
+                        dolor</p>
+                    <p class="mb-2"><i class="fas fa-map-marker text-secondary me-2"></i>Thika Road, Nairobi KE
+                    </p>
+                    <p class="mb-2"><i class="fas fa-envelope-open text-secondary me-2"></i>info@example.com</p>
+                    <p class="mb-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+254729250794</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-secondary ps-3 mb-4">Quick Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>About
+                            Us</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Our
+                            Services</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Meet The
+                            Team</a>
+                        <a class="text-body" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Contact
+                            Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-secondary ps-3 mb-4">Popular Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Home</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>About
+                            Us</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Our
+                            Services</a>
+                        <a class="text-body mb-2" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Meet The
+                            Team</a>
+
+                        <a class="text-body" href="#"><i class="fas fa-arrow-right text-secondary me-2"></i>Contact
+                            Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase border-start border-5 border-secondary ps-3 mb-4">Newsletter</h5>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3" placeholder="Your Email">
+                            <button class="btn btn-secondary">Sign Up</button>
+                        </div>
+                    </form>
+                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-outline-secondary btn-square me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-secondary btn-square me-2" href="#"><i
+                                class="fab fa-facebook"></i></a>
+                        <a class="btn btn-outline-secondary btn-square me-2" href="#"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-outline-secondary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="col-12 text-center text-body">
+                    <a class="text-body" href="">Terms & Conditions</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Privacy Policy</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Customer Support</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Payments</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">Help</a>
+                    <span class="mx-1">|</span>
+                    <a class="text-body" href="">FAQs</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; 2023 <a class="text-white" href="">xiroxalm</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Inspired design by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- End of Footer -->
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
